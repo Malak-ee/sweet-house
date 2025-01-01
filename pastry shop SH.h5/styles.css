@@ -1,0 +1,377 @@
+/* Reset Styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* General Styles */
+  body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+      color: #940048;
+  }
+  
+  header {
+    background-color: #ECE4E8;
+    padding: 1%;
+    text-align: center;
+    color:#940048
+    ;
+  }
+  
+  header .logo {
+    font-style:oblique;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  /*navigator sec */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  nav ul li a {
+    color: #940048;
+    font-size: 1rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* index Section */
+  .index {
+    background-color: #F8F3F4;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 3rem auto; 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  .indexback img{
+    width: 110%;
+    height: auto;
+
+  }
+  .index h1 {
+    font-size: 2.8rem;
+    color: #940048; 
+    margin-bottom: 1.5rem;
+    font-weight: bold; 
+  }
+  
+  .index p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .index button {
+    padding: 2rem 4rem;
+    background-color: #940048;
+    color: #ffffff; 
+    font-size: 1.2rem;
+    font-weight: bold; 
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; 
+    transition: all 0.3s ease; 
+  }
+  
+  .index button a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .index button:hover {
+    background-color: #be6691;
+    transform: scale(1.05); 
+  }
+  
+  
+  
+  /* About, Products, Contact Sections */
+  .about {
+    background-color: #E3D3D4;
+    color: #555;
+  }
+  .about h1{
+    color: #940048;
+    size :15cm;
+  }
+
+  section {
+    padding: 8rem;
+    text-align: center;
+    
+  }
+
+  footer {
+    background-color:#ECE4E8;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+
+  }
+
+  /* Promise section - about  */
+.promise {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.promise-item {
+  background-color: #ECE4E8;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(64, 3, 69, 0.1);
+  text-align: center;
+}
+
+.promise-item h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  color: #940048;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.promise-item p {
+  font-size: 1rem;
+  color: #555;
+  text-align: 1;
+  
+}
+.promise-item img {
+  width: 25%;
+  height: auto;
+}
+/* Treat Yourself Section - about */
+.treat-yourself {
+  background-color:#940048;
+  color: white;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.treat-yourself h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.treat-yourself p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.treat-yourself button {
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #f3ecef;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.treat-yourself button a {
+  color: #940048;
+  text-decoration: none;
+}
+
+.treat-yourself button:hover {
+  background-color: #E3D3D4;
+}
+/* Queries & Orders Section */
+.queries-orders {
+  background-color: #940048;
+  color: #333;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.queries-orders h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color :white;
+}
+
+.queries-orders p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color : white;
+}
+
+.queries-orders button {
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #940048;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.queries-orders button a {
+  color: #940048;
+  text-decoration: none;
+}
+
+.queries-orders button:hover {
+  background-color: #E3D3D4;
+}
+/* Product Gallery */
+
+.product-gallery {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color:  #fafafa;
+}
+
+.product-gallery h1 {
+  font-size: 2.5rem;
+  color: #555;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product-item {
+  display: inline-block;
+  width: calc(33% - 2rem);
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+}
+
+.product-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+
+.product-item h3 {
+  font-size: 1.8rem;
+  color: #940048
+  ;
+  margin: 1rem 0;
+}
+
+.product-item p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.product-item button {
+  padding: 1rem 2rem;
+  background-color: #940048;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+  background-color: #be6691;
+}
+
+.product-item button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contact Page */
+.contact {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.order-form {
+  background-color: #E3D3D4;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.order-form p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.order-form form {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.order-form label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+}
+
+.order-form button {
+  padding: 1rem 3rem;
+  background-color: #940048;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-form button:hover {
+  background-color: #be6691;
+}
+
